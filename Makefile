@@ -2,9 +2,9 @@
 
 BUILD_OVERLAYS ?= 1
 BUILD_SCREENS  ?= 1
-BUILD_MAPS     ?= 0
+BUILD_MAPS     ?= 1
 NON_MATCHING   ?= 0
-SKIP_ASM	   ?= 0
+SKIP_ASM       ?= 0
 
 # Names and Paths
 
@@ -137,13 +137,12 @@ TARGET_MAIN := main
 ifeq ($(BUILD_OVERLAYS), 1)
 
 TARGET_BODYPROG := bodyprog
-TARGET_STREAM   := stream
 
 endif
 
 ifeq ($(BUILD_SCREENS), 1)
 
-TARGET_SCREENS := b_konami credits options saveload
+TARGET_SCREENS := b_konami credits options saveload stream
 TARGET_SCREENS := $(addprefix $(TARGET_SCREENS_SRC_DIR)/,$(TARGET_SCREENS))
 
 endif
