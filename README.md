@@ -50,3 +50,707 @@ NOTE: `build-c/build-C` are obligatory if the configuration in the `Makefile` ha
 
 ## Contributing
 Contributions are welcome. Following our [code conventions](https://github.com/Vatuu/silent-hill-decomp/blob/master/docs/Coding%20Conventions.md), feel free to contribute via a pull request or issue and join us on the [PS1/PS2 Decompilation](https://discord.gg/VwCPdfbxgm) Discord server in the `#silent-hill` channel.
+
+## Table progress proof
+Space reserverd for a table for a future progress report support feature in the main repository
+
+### Progress
+As commonly done on PlayStation 1 games due limited memory the game functionality was split among many `overlays`, many of them covering specific screen related part of the game while the most are level specific.
+
+Progress bars powered by [decomp.dev](https://decomp.dev).
+
+<table align=center>
+    <tbody align=center>
+        <tr>
+            <th colspan=3>SLUS-00707<br/>(main executable)</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of life here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+            <th colspan=3>Game System Overlays</th>
+        </tr>
+        <tr>
+            <td colspan=3>
+<details>
+<summary>Click here to expand</summary>
+<!-- Github incorrectly parses it if it's indented... -->
+<table>
+    <tbody>
+        <tr>
+          <th colspan=3>BODYPROG.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>B_KONAMI.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>STREAM.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>SAVELOAD.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>STF_ROLL.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>OPTION.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Purpose</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert purpose of the overlay here</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+      </tbody>
+    </table>
+</details>
+</td>
+          <tr>
+            <th colspan=3>Game Map Overlays</th>
+          </tr>
+          <tr>
+            <td colspan=3>
+<details>
+<summary>Click here to expand</summary>
+<!-- Github incorrectly parses it if it's indented... -->
+<table>
+    <tbody>
+        <tr>
+          <th colspan=3>MAP0_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP0_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP0_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP0_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S04.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S05.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP1_S06.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP2_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP2_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP2_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP2_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP2_S04.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S04.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S05.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP3_S06.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S04.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S05.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP4_S06.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP5_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP5_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP5_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP5_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S04.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP6_S05.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP7_S00.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP7_S01.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP7_S02.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+        <tr>
+          <th colspan=3>MAP7_S03.BIN</th>
+        </tr>
+        <tr>
+            <td>Progress</td>
+            <td>Location</td>
+            <td>Note</td>
+        </tr>
+        <tr>
+            <td><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
+            <td><code>Insert the location where this overlay is used</code></td>
+            <td><code>Insert a note here</code></td>
+        </tr>
+      </tbody>
+    </table>
+</details>
+</td>
+    </tbody>
+</table>
