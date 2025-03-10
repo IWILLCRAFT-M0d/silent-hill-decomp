@@ -567,7 +567,7 @@ Progress bars powered by [decomp.dev](https://decomp.dev).
         </tr>
         <tr>
             <td align=center><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fbfbbdecomp.github.io%2Fbfbb%2Fapi.json&query=fuzzy_match&label=Close%20Match&color=yellowgreen"/></td>
-            <td colspan=2>Hosptial (Otherworld/Nowhere)</td>
+            <td colspan=2>Hospital First Floor (Nowhere)</td>
         </tr>
         <tr>
           <th colspan=3>❔ MAP7_S01.BIN ❔</th>
