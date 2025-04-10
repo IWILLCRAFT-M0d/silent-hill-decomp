@@ -126,6 +126,13 @@ typedef struct
 
 typedef struct
 {
+    s8 unk_0[15];
+    s8 field_F;
+    s8 unk_10[8];
+} s_800AD4C8; // Size: 24
+
+typedef struct
+{
     s8  unk_0[2];
     u8  field_2;
     s8  unk_6[4090];
@@ -586,14 +593,7 @@ extern s32 g_Demo_DemoStep; // 0x800C4894
 
 extern s_FsImageDesc g_MainImg0; // 0x80022C74
 
-typedef struct
-{
-    s8 unk_0[15];
-    s8 field_F;
-    s8 unk_10[8];
-} s_Dummy; // Size: 24
-
-extern s_Dummy      D_800AD4C8[];
+extern s_800AD4C8 D_800AD4C8[];
 
 /** Initializer for something before the game loop. */
 void func_8002E630();
