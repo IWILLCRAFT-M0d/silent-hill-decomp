@@ -268,6 +268,58 @@ typedef enum _PlayerProperty
     PlayerProperty_RunTimer1     = 9  // Increments every tick indefinitely.
 } s_PlayerProperty;
 
+/** @brief Names for each character index used in the game, `g_Chara_FileInfo` array associates each character ID with anim/model/texture files. */
+enum e_ShCharacterId
+{
+    Chara_None                = 0,
+    Chara_Hero                = 1,
+    Chara_AirScreamer         = 2,
+    Chara_NightFlutter        = 3,
+    Chara_Groaner             = 4,
+    Chara_Wormhead            = 5,
+    Chara_LarvalStalker       = 6,
+    Chara_Stalker             = 7,
+    Chara_GreyChild           = 8,
+    Chara_Mumbler             = 9,
+    Chara_HangedScratcher     = 10,
+    Chara_Creaper             = 11,
+    Chara_Romper              = 12,
+    Chara_UnusedChicken       = 13,
+    Chara_Splithead           = 14,
+    Chara_Floatstinger        = 15,
+    Chara_PuppetNurse         = 16,
+    Chara_DummyA              = 17, /** Uses dummy anim file without model/texture, but uses same update funcptr as `Chara_PuppetNurse`. */
+    Chara_PuppetDoctor        = 18,
+    Chara_DummyB              = 19, /** Uses dummy anim file without model/texture, but uses same update funcptr as `Chara_PuppetDoctor`. */
+    Chara_Twinfeeler          = 20,
+    Chara_Bloodsucker         = 21,
+    Chara_Incubus             = 22,
+    Chara_Unknown23           = 23,
+    Chara_MonsterCybil        = 24,
+    Chara_LockerDeadBody      = 25,
+    Chara_Cybil               = 26,
+    Chara_EndingCybil         = 27,
+    Chara_Cheryl              = 28,
+    Chara_Cat                 = 29,
+    Chara_Dahlia              = 30,
+    Chara_EndingDahlia        = 31,
+    Chara_Lisa                = 32,
+    Chara_BloodyLisa          = 33,
+    Chara_Alessa              = 34,
+    Chara_GhostChildAlessa    = 35,
+    Chara_Incubator           = 36,
+    Chara_BloodyIncubator     = 37,
+    Chara_Kaufmann            = 38,
+    Chara_EndingKaufmann      = 39,
+    Chara_Flauros             = 40,
+    Chara_LittleIncubus       = 41,
+    Chara_GhostDoctor         = 42,
+    Chara_IntensiveCareUnit   = 43,
+    Chara_Null                = 44,
+
+    Chara_Count
+};
+
 /** Based on LIBOVR.PDF `Buffer Data Format` section. */
 typedef enum _PadTerminalType
 {
@@ -427,14 +479,14 @@ typedef struct _ShSaveUserConfig
     u8                   optBrightness_22;          /** Range: [0, 7], default: 3. */
     u8                   optWeaponCtrl_23;          /** Switch: 0, Press: 1, default: Press. */
     u8                   optBloodColor_24;          /** Normal: 0, Green: 2, Violet: 5, Black: 13, default: Normal */
-    u8                   optAutoLoad_25;            /** Off: 0, On: 1, default: Off. */
+    s8                   optAutoLoad_25;            /** Off: 0, On: 1, default: Off. */
     u8                   unk_26;
     u8                   optExtraOptionsEnabled_27;
     s8                   optViewCtrl_28;            /** Normal: 0, Reverse: 1, default: Normal. */
     s8                   optViewMode_29;            /** Normal: 0, Self View: 1, default: Normal. */
-    u8                   optRetreatTurn_2A;         /** Normal: 0, Reverse: 1, default: Normal. */
-    u8                   optWalkRunCtrl_2B;         /** Normal: 0, Reverse: 1, default: Normal. */
-    u8                   optAutoAiming_2C;          /** On: 0, Off: 1, default: On. */
+    s8                   optRetreatTurn_2A;         /** Normal: 0, Reverse: 1, default: Normal. */
+    s8                   optWalkRunCtrl_2B;         /** Normal: 0, Reverse: 1, default: Normal. */
+    s8                   optAutoAiming_2C;          /** On: 0, Off: 1, default: On. */
     s8                   optBulletAdjust_2D;        /** x1-x6: Range [0, 5], default: x1. */
     u16                  seenGameOverTips_2E[1];    /** Bitfield tracking seen game-over tips. Each bit corresponds to a tip index (0–15), set bits indicate seen tips. */
     s8                   unk_30[4];
@@ -512,7 +564,7 @@ STATIC_ASSERT_SIZEOF(s_ModelAnim, 20);
 
 typedef struct _Model
 {
-    s8 chara_type_0;
+    s8 chara_type_0; /** `e_ShCharacterId` */
     u8 field_1;
     u8 field_2;
     u8 isAnimStateUnchanged_3; // Educated guess. In `s_MainCharacterExtra`, always 1, set to 0 for 1 tick when anim state appears to change.
