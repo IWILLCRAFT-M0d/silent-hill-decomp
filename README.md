@@ -110,7 +110,7 @@ Progress bars powered by [decomp.dev](https://decomp.dev)
             <td colspan=2>Purpose</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=screens/options/options"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=screens/options/options"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=screens/options/options"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=screens/options/options&color=rgb(0,200,0)"/></a></td>
             <td colspan=2>Options screen logic.</td>
         </tr>
       </tbody>
@@ -154,32 +154,32 @@ Progress bars powered by [decomp.dev](https://decomp.dev)
             <td colspan=2>Location</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s00/map1_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s00/map1_s00"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s00/map1_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s00/map1_s00"/></a></td>
             <td colspan=2>School first floor, courtyard, and basement.</td>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s01/map1_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s01/map1_s01"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s01/map1_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s01/map1_s01"/></a></td>
             <td colspan=2>School second floor.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s02/map1_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s02/map1_s02"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s02/map1_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s02/map1_s02"/></a></td>
             <td colspan=2>School first floor and courtyard in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s03/map1_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s03/map1_s03"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s03/map1_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s03/map1_s03"/></a></td>
             <td colspan=2>School second floor and school roof in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s04/map1_s04"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s04/map1_s04"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s04/map1_s04"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s04/map1_s04"/></a></td>
             <td>Unknown</td>
             <td>School location, likely in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s05/map1_s05"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s05/map1_s05"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s05/map1_s05"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s05/map1_s05"/></a></td>
             <td>Unknown</td>
             <td>School location, likely in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s06/map1_s06"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map1_s06/map1_s06"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map1_s06/map1_s06"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map1_s06/map1_s06"/></a></td>
             <td colspan=2>School first floor and basement after the boss fight.</td>
         </tr>
         <tr>
@@ -218,34 +218,34 @@ Progress bars powered by [decomp.dev](https://decomp.dev)
             <td colspan=2>Location</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s00/map3_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s00/map3_s00"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s00/map3_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s00/map3_s00"/></a></td>
             <td>Unknown</td>
             <td>Hospital, possibly only the reception<br/>and examination rooms but none of<br/>the rooms around them.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s01/map3_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s01/map3_s01"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s01/map3_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s01/map3_s01"/></a></td>
             <td>Unknown</td>
             <td>Hospital, possibly the rest of the first floor<br/>not covered by <code>MAP3_S00.BIN</code><br/>and the basement.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s02/map3_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s02/map3_s02"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s02/map3_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s02/map3_s02"/></a></td>
             <td>Unknown</td>
             <td>Hospital, the part when Harry goes<br/>in the elevator and it goes dark.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s03/map3_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s03/map3_s03"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s03/map3_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s03/map3_s03"/></a></td>
             <td colspan=2>Hospital third and second floor in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s04/map3_s04"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s04/map3_s04"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s04/map3_s04"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s04/map3_s04"/></a></td>
             <td colspan=2>Hospital first floor in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s05/map3_s05"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s05/map3_s05"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s05/map3_s05"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s05/map3_s05"/></a></td>
             <td colspan=2>Hospital basement in Otherworld.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s06/map3_s06"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map3_s06/map3_s06"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map3_s06/map3_s06"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map3_s06/map3_s06"/></a></td>
             <td colspan=2>Hospital first floor after the Otherworld section.</td>
         </tr>
         <tr>
@@ -289,19 +289,19 @@ Progress bars powered by [decomp.dev](https://decomp.dev)
         <tr>
           <th colspan=3>🏙🍹 MAP5 🍹🏙</th>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s00/map5_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map5_s00/map5_s00"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s00/map5_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map5_s00/map5_s00"/></a></td>
             <td colspan=2>Sewers lower and upper levels.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s01/map5_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map5_s01/map5_s01"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s01/map5_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map5_s01/map5_s01"/></a></td>
             <td colspan=2>Silent Hill Resort Area.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s02/map5_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map5_s02/map5_s02"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s02/map5_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map5_s02/map5_s02"/></a></td>
             <td colspan=2>Annie's Bar and Indian Runner in Resort Area.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s03/map5_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map5_s03/map5_s03"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map5_s03/map5_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map5_s03/map5_s03"/></a></td>
             <td colspan=2>Norman's Motel in Resort Area.</td>
         </tr>
         <tr>
@@ -339,21 +339,21 @@ Progress bars powered by [decomp.dev](https://decomp.dev)
             <td colspan=2>Location</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s00/map7_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map7_s00/map7_s00"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s00/map7_s00"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map7_s00/map7_s00"/></a></td>
             <td colspan=2>Hospital first floor in Nowhere.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s01/map7_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map7_s01/map7_s01"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s01/map7_s01"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map7_s01/map7_s01"/></a></td>
             <td>Unknown</td>
             <td>Nowever related.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s02/map7_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map7_s02/map7_s02"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s02/map7_s02"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map7_s02/map7_s02"/></a></td>
             <td>Unknown</td>
             <td>Unknown parts of Nowhere and parts of the<br/>cutscene when Alessa struggles against<br/>Dahlia.</td>
         </tr>
         <tr>
-            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s03/map7_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&color=%23003cc7&measure=fuzzy_match&unit=maps/map7_s03/map7_s03"/></a></td>
+            <td align=center><a href="https://decomp.dev/Vatuu/silent-hill-decomp?unit=maps/map7_s03/map7_s03"><img src="https://decomp.dev/Vatuu/silent-hill-decomp.svg?mode=shield&measure=fuzzy_match&unit=maps/map7_s03/map7_s03"/></a></td>
             <td colspan=2>Final boss fight.</td>
         </tr>
       </tbody>
