@@ -131,6 +131,7 @@ def main():
     "STF_ROLL",
     "OPTION",
     "SAVELOAD",
+    "BODYPROG",
     "MAP0_S00", "MAP0_S01", "MAP0_S02",
     "MAP1_S00", "MAP1_S01", "MAP1_S02", "MAP1_S03", "MAP1_S04", "MAP1_S05", "MAP1_S06",
     "MAP2_S00", "MAP2_S01", "MAP2_S02", "MAP2_S03", "MAP2_S04",
