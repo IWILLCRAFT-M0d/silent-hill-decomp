@@ -1,6 +1,6 @@
 # Configuration
 
-BUILD_OVERLAYS ?= 1
+BUILD_ENGINE   ?= 1
 BUILD_SCREENS  ?= 1
 BUILD_MAPS     ?= 1
 NON_MATCHING   ?= 0
@@ -8,10 +8,48 @@ SKIP_ASM       ?= 0
 
 # Names and Paths
 
-GAME_NAME := SLUS-00707
+# Versions supported
+# Retail:
+# USA
+
+# Demos:
+# OPM16
+
+# Prototypes:
+# 24-11-98
+
+
+GAME_VERSION = USA
+
+ifeq ($(GAME_VERSION), USA)
+
+GAME_NAME	     := SLUS-00707
+GAME_VERSION_DIR := USA
+GAME_FILE_EXE    := SLUS_007.07
+GAME_FILE_SILENT := SILENT.
+GAME_FILE_HILL   := HILL.
+
+else ifeq ($(GAME_VERSION), OPM16)
+
+GAME_NAME	     := SCUS-94278
+GAME_VERSION_DIR := demos/OPM16
+GAME_FILE_EXE    := SLUS_007.07
+GAME_FILE_SILENT := WSK.
+
+else ifeq ($(GAME_VERSION), 24-11-98)
+
+GAME_NAME	     := Silent Hill - Preview - 004 - 24-11-98
+GAME_VERSION_DIR := proto/28-11-98
+GAME_FILE_EXE    := SLUS_007.07
+GAME_FILE_SILENT := SILENT.
+GAME_FILE_HILL   := HILL.
+
+endif
+
+
 
 ROM_DIR      := rom
-CONFIG_DIR   := configs
+CONFIG_DIR   := configs/$(GAME_VERSION_DIR)
 LINKER_DIR   := linkers
 IMAGE_DIR    := $(ROM_DIR)/image
 BUILD_DIR    := build
@@ -56,20 +94,20 @@ OBJDUMP_FLAGS       := --disassemble-all --reloc --disassemble-zeroes -Mreg-name
 SPLAT_FLAGS         := --disassemble-all --make-full-disasm-for-code
 DUMPSXISO_FLAGS     := -x $(ROM_DIR) -s $(ROM_DIR)/layout.xml $(IMAGE_DIR)/$(GAME_NAME).bin
 MKPSXISO_FLAGS      := -y -q $(ROM_DIR)/shgame.xml
-SILENT_ASSETS_FLAGS := -exe $(ROM_DIR)/SLUS_007.07 -fs $(ROM_DIR)/SILENT. -fh $(ROM_DIR)/HILL. $(ASSETS_DIR)
-INSERT_OVLS_FLAGS   := -exe $(ROM_DIR)/SLUS_007.07 -fs $(ROM_DIR)/SILENT. -ftb $(ASSETS_DIR)/filetable.c.inc -b $(OUT_DIR) -xml $(ROM_DIR)/layout.xml -o $(ROM_DIR)
+SILENT_ASSETS_FLAGS := -exe $(ROM_DIR)/$(GAME_FILE_EXE) -fs $(ROM_DIR)/$(GAME_FILE_SILENT) -fh $(ROM_DIR)/$(GAME_FILE_HILL). $(ASSETS_DIR)
+INSERT_OVLS_FLAGS   := -exe $(ROM_DIR)/$(GAME_FILE_EXE) -fs $(ROM_DIR)/$(GAME_FILE_SILENT) -ftb $(ASSETS_DIR)/filetable.c.inc -b $(OUT_DIR) -xml $(ROM_DIR)/layout.xml -o $(ROM_DIR)
 
 # Main executable uses -G8 while overlays use -G0.
 # This function redefines required parameters for compilation checking depending on whether a file's route is from main executable or an overlay.
 # libsd also needs --expand-div maspsx flag, which the rest of the build has issues with.
 define DL_FlagsSwitch
-	$(if $(or $(filter MAIN,$(patsubst build/src/main/%,MAIN,$(1))), $(filter MAIN,$(patsubst build/asm/main/%,MAIN,$(1)))), $(eval DL_FLAGS = -G8), $(eval DL_FLAGS = -G0))
+	$(if $(findstring /main/,$(1)), $(eval DL_FLAGS = -G8), $(eval DL_FLAGS = -G0))
 	$(eval AS_FLAGS = $(ENDIAN) $(INCLUDE_FLAGS) $(OPT_FLAGS) $(DL_FLAGS) -march=r3000 -mtune=r3000 -no-pad-sections)
 	$(eval CC_FLAGS = $(OPT_FLAGS) $(DL_FLAGS) -mips1 -mcpu=3000 -w -funsigned-char -fpeephole -ffunction-cse -fpcc-struct-return -fcommon -fverbose-asm -msoft-float -mgas -fgnu-linker -quiet)
-	$(eval MASPSX_FLAGS = --aspsx-version=2.77 --run-assembler $(AS_FLAGS))
-
-	$(if $(filter build/src/bodyprog/libsd/smf_io.c.o build/src/bodyprog/libsd/smf_mid.c.o,$(1)), \
-		$(eval MASPSX_FLAGS = --expand-div $(MASPSX_FLAGS)))
+	
+	$(if $(or $(findstring smf_mid,$(1)), $(findstring smf_io,$(1)),), \
+		$(eval MASPSX_FLAGS = --aspsx-version=2.77 --run-assembler --expand-div $(AS_FLAGS)), \
+		$(eval MASPSX_FLAGS = --aspsx-version=2.77 --run-assembler $(AS_FLAGS)))
 endef
 
 ifeq ($(NON_MATCHING),1)
@@ -141,7 +179,7 @@ TARGET_MAPS_SRC_DIR := maps
 
 TARGET_MAIN := main
 
-ifeq ($(BUILD_OVERLAYS), 1)
+ifeq ($(BUILD_ENGINE), 1)
 
 TARGET_BODYPROG := bodyprog
 
@@ -182,7 +220,7 @@ LD_FILES     := $(addsuffix .ld,$(addprefix $(LINKER_DIR)/,$(TARGET_IN)))
 
 default: all
 
-all: build
+all: check
 
 build: $(TARGET_OUT)
 
@@ -194,7 +232,7 @@ report: objdiff-config
 	@$(OBJDIFF) report generate > $(BUILD_DIR)/progress.json
 
 check: build
-	@sha256sum --ignore-missing --check checksum.sha
+	@sha256sum --ignore-missing --check $(CONFIG_DIR)/checksum.sha
 
 progress:
 	$(MAKE) build NON_MATCHING=1 SKIP_ASM=1
@@ -263,7 +301,6 @@ $(BUILD_DIR)/%.i: %.c
 
 $(BUILD_DIR)/%.c.s: $(BUILD_DIR)/%.i
 	@mkdir -p $(dir $@)
-	$(call DL_FlagsSwitch, $@)
 	$(CC) $(CC_FLAGS) -o $@ $<
 
 $(BUILD_DIR)/%.c.o: $(BUILD_DIR)/%.c.s
