@@ -54,7 +54,7 @@ segments:
     align: 4
     subalign: 4
     subsegments:
-      - [0x0, rodata, options]
-      - [0x60, asm, options]
-      - [0x17C8, data, options]
+      - [0x0, rodata, stream]
+      - [0x60, asm, stream]
+      - [0x17C8, data, stream]
   - [0x12A00]
