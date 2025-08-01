@@ -271,7 +271,7 @@ def main():
         SILENT.seek((fileTableOrig[x[4] + 1][0] - 64 ) * 2048)
     
     with open(args.xmlFile, "r") as XML:
-        with open(os.path.dirname(args.xmlFile)+"/shgame.xml", "a+") as newXML:
+        with open(os.path.dirname(args.xmlFile)+"/rebuild.xml", "a+") as newXML:
             newXML.truncate(0)
             for fileLine in XML:
                 if "image_name=\"mkpsxiso.bin\"" in fileLine:
