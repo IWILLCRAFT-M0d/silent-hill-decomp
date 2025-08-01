@@ -2,7 +2,7 @@
 
 BUILD_ENGINE   ?= 1
 BUILD_SCREENS  ?= 1
-BUILD_MAPS     ?= 1
+BUILD_MAPS     ?= 0
 NON_MATCHING   ?= 0
 SKIP_ASM       ?= 0
 
@@ -12,11 +12,12 @@ SKIP_ASM       ?= 0
 #
 # Retail:
 # USA
+# JAP (Revision 2) | MAPS OVERLAY MISSING
 #
 # Demos:
 # Trial-USA
 
-GAME_VERSION = USA
+GAME_VERSION = JAP-2
 
 ifeq ($(GAME_VERSION), USA)
 
@@ -25,6 +26,16 @@ ifeq ($(GAME_VERSION), USA)
 GAME_NAME	     := SLUS-00707
 GAME_VERSION_DIR := USA
 GAME_FILE_EXE    := SLUS_007.07
+GAME_FILE_SILENT := SILENT.
+GAME_FILE_HILL   := HILL.
+
+else ifeq ($(GAME_VERSION), JAP-2)
+
+# RETAIL
+
+GAME_NAME	     := SLPM-86192
+GAME_VERSION_DIR := JAP-2
+GAME_FILE_EXE    := SLPM_861.92
 GAME_FILE_SILENT := SILENT.
 GAME_FILE_HILL   := HILL.
 
@@ -218,9 +229,9 @@ endif
 
 ifeq ($(BUILD_SCREENS), 1)
 
-ifeq ($(GAME_VERSION), USA)
+ifeq ($(filter ($(GAME_VERSION), USA) ($(GAME_VERSION), JAP-2),yes),)
 
-TARGET_SCREENS := b_konami credits options saveload stream
+TARGET_SCREENS :=  credits options saveload stream
 
 else ifeq ($(GAME_VERSION), Trial-USA)
 
